@@ -12,6 +12,7 @@ export default {
 	favicon: 'favicon.ico',
 	owner: 'Cormac Sugrue',
 	profileImage: 'cormac-profile.jpg',
+	heroImage: 'heroImage.jpg',
 	socialLinks: [
 		{
 			name: 'GitHub',
