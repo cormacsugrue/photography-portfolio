@@ -26,7 +26,7 @@ export const getStaticPaths = async () => {
 		<div class="container-custom">
 			<div class="mb-16 text-center">
 				<h1 class="text-4xl md:text-5xl font-bold mb-4">Gallery</h1>
-				<p class="text-gray-600 max-w-xl mx-auto">Explore my collection of photographic works</p>
+				<p class=" max-w-xl mx-auto">Explore my collection of photographic works</p>
 			</div>
 
 			<div class="flex justify-center mb-10">
@@ -37,8 +37,8 @@ export const getStaticPaths = async () => {
 								<div
 									class={`px-4 py-2 border ${
 										collectionBtn.id === collection
-											? 'border-black bg-black text-white'
-											: 'border-gray-200 text-gray-700 hover:border-gray-300'
+											? 'border-foreground bg-[hsl(var(--card))] text-foreground'
+											: 'border-[hsl(var(--border))] text-foreground hover:border-[hsl(var(--muted-foreground))]'
 									} transition-all`}
 								>
 									{collectionBtn.name}

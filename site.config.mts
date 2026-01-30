@@ -8,19 +8,19 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
+	title: 'CS',
 	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
-	profileImage: 'profile.webp',
+	owner: 'Cormac Sugrue',
+	profileImage: 'cormac-profile.jpg',
 	socialLinks: [
 		{
 			name: 'GitHub',
-			url: 'https://github.com/rockem/astro-photography-portfolio',
+			url: 'https://github.com/cormacsugrue/photography-portfolio',
 			icon: Github,
 		} as SocialLink,
 		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com',
+			url: 'https://www.instagram.com/echidnamusica/',
 			icon: Instagram,
 		} as SocialLink,
 	],
