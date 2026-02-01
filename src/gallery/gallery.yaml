@@ -5,86 +5,95 @@ collections:
     name: Travel
   - id: street
     name: Street
+  - id: portrait
+    name: Portrait
 images:
-  - path: nature/nature-2.jpg
+  - path: nature/2025-12-29_Family-Christmas_Malahide1232.jpg
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-3.jpg
-    meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
-      collections:
-        - featured
-        - nature
-    exif: {}
-  - path: nature/nature-5.jpg
-    meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-7.jpg
-    meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
-      collections:
-        - featured
-        - nature
-    exif: {}
-  - path: nature/nature-8.jpg
-    meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
-      collections:
-        - featured
-        - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
-    meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
-      collections:
-        - nature
-    exif: {}
-  - path: street/stree-1.jpg
-    meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
-      collections:
-        - featured
-        - street
-    exif: {}
-  - path: travel/travel-1.jpg
-    meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
-      collections:
-        - featured
-        - travel
-    exif: {}
-  - path: nature/nature-1.jpg
-    meta:
-      title: Nature 1
+      title: 2025 12 29 Family Christmas Malahide1232
       description: ''
       collections:
         - nature
-    exif: {}
+        - featured
+    exif:
+      captureDate: 2025-12-29T15:33:47.000Z
+      fNumber: 10
+      focalLength: 41
+      iso: 500
+      model: ILCE-6100
+      shutterSpeed: 60
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: nature/25-11-28_Nature-Park_Newbridge-House386.jpg
+    meta:
+      title: 25 11 28 Nature Park Newbridge House386
+      description: ''
+      collections:
+        - nature
+        - featured
+    exif:
+      captureDate: 2025-11-28T16:15:06.000Z
+      fNumber: 22
+      focalLength: 16
+      iso: 100
+      model: ILCE-6100
+      shutterSpeed: 4
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: portrait/2025-12-29_Nandi-Shoot_Bonnet1053.jpg
+    meta:
+      title: 2025 12 29 Nandi Shoot Bonnet1053
+      description: ''
+      collections:
+        - portrait
+        - featured
+    exif:
+      captureDate: 2025-12-24T15:46:30.000Z
+      fNumber: 14
+      focalLength: 50
+      iso: 400
+      model: ILCE-6100
+      shutterSpeed: 20
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: street/DSC02319.jpg
+    meta:
+      title: Dsc02319
+      description: ''
+      collections:
+        - street
+        - featured
+    exif:
+      captureDate: 2026-01-15T16:50:28.000Z
+      fNumber: 9
+      focalLength: 49
+      iso: 100
+      model: ILCE-6100
+      shutterSpeed: 15
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: travel/2026-01-04_New-Years_Ventry-Kerry1459.jpg
+    meta:
+      title: 2026 01 04 New Years Ventry Kerry1459
+      description: ''
+      collections:
+        - travel
+        - featured
+    exif:
+      captureDate: 2026-01-01T16:46:23.000Z
+      fNumber: 22
+      focalLength: 16
+      iso: 100
+      model: ILCE-6100
+      shutterSpeed: 13
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: travel/heroImage.jpg
+    meta:
+      title: Heroimage
+      description: ''
+      collections:
+        - travel
+    exif:
+      captureDate: 2026-01-15T15:11:55.000Z
+      fNumber: 6.3
+      focalLength: 39
+      iso: 100
+      model: ILCE-6100
+      shutterSpeed: 640
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
