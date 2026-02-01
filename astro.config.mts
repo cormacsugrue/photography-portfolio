@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
 	site: 'https://cormacsugrue.com',
 	// base: 'photography-portfolio',
-	base: 'photography-portfolio',
+	base: '/',
 	vite: {
 		plugins: [tailwindcss()],
 	},
