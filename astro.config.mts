@@ -3,10 +3,10 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.cormacsugrue.com',
-	// base: 'photography-portfolio',,,
-	base: '/',
-	integrations: [
-		// ...existing integrations...
-	],
+	site: 'https://cormacsugrue.com',
+	// base: 'photography-portfolio',
+	base: 'p/',
+	vite: {
+		plugins: [tailwindcss()],
+	},
 });
