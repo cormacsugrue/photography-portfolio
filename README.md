@@ -48,7 +48,7 @@ yarn dev
 
 ## 📝 Make it your own
 
-### Configuration
+### Configuration 
 
 Edit the `astro.config.ts` file to update your github pages details:
 
