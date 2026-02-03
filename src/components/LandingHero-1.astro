@@ -2,10 +2,9 @@
 import siteConfig from '../../site.config.mjs';
 
 const owner = siteConfig.owner;
-const base = import.meta.env.BASE_URL;
 const heroImage = siteConfig.heroImage
-	? `${base}/images/${siteConfig.heroImage}`
-	: `${base}/images/${siteConfig.profileImage}`;
+	? `/images/${siteConfig.heroImage}`
+	: `/images/${siteConfig.profileImage}`;
 ---
 
 <div class="absolute inset-0 z-0">
@@ -38,7 +37,7 @@ const heroImage = siteConfig.heroImage
 				A place to showcase my photography
 			</p>
 			<a
-				href={`${base}/collections`}
+				href="/collections"
 				class="mt-8 inline-block px-6 py-3 border-2 border-[hsl(var(--foreground))] rounded-md
 					  hover:bg-[hsl(var(--foreground))] hover:text-[hsl(var(--background))] transition-all duration-300
 					  text-sm md:text-base font-medium transform hover:scale-105 active:scale-95"
