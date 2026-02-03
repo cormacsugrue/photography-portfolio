@@ -7,6 +7,14 @@ on:
   push:
     branches:
       - main
+      - gh-pages
+    paths:
+      - 'src/**/*.jpg'
+      - 'src/**/*.jpeg'
+      - 'src/**/*.png'
+      - 'src/**/*.webp'
+      - 'package.json'
+      - 'astro.config.mts'
 
 jobs:
   deploy:
