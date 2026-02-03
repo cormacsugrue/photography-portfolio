@@ -7,6 +7,8 @@ collections:
     name: Street
   - id: portrait
     name: Portrait
+  - id: landscape
+    name: Landscape
 images:
   - path: nature/2025-12-29_Family-Christmas_Malahide1232.jpg
     meta:
@@ -74,7 +76,6 @@ images:
       description: ''
       collections:
         - travel
-        - featured
     exif:
       captureDate: 2026-01-01T16:46:23.000Z
       fNumber: 22
@@ -117,6 +118,7 @@ images:
       description: ''
       collections:
         - nature
+        - featured
     exif:
       captureDate: 2026-01-16T14:14:36.000Z
       fNumber: 5.6
@@ -124,4 +126,48 @@ images:
       iso: 100
       model: ILCE-6100
       shutterSpeed: 500
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: landscape/2025-12-29_Family-Christmas_Malahide1232.jpg
+    meta:
+      title: 2025 12 29 Family Christmas Malahide1232
+      description: ''
+      collections:
+        - landscape
+    exif:
+      captureDate: 2025-12-29T15:33:47.000Z
+      fNumber: 10
+      focalLength: 41
+      iso: 500
+      model: ILCE-6100
+      shutterSpeed: 60
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: landscape/Ventry-Pier-Dreamy.jpg
+    meta:
+      title: Ventry Pier Dreamy
+      description: ''
+      collections:
+        - landscape
+        - featured
+    exif:
+      captureDate: 2025-12-29T16:04:45.000Z
+      fNumber: 5.6
+      focalLength: 50
+      iso: 800
+      model: ILCE-6100
+      shutterSpeed: 640
+      lensModel: E PZ 16-50mm F3.5-5.6 OSS
+  - path: landscape/25-11-28_Nature-Park_Newbridge-House386.jpg
+    meta:
+      title: 25 11 28 Nature Park Newbridge House386
+      description: ''
+      collections:
+        - landscape
+        - featured
+    exif:
+      captureDate: 2025-11-28T16:15:06.000Z
+      fNumber: 22
+      focalLength: 16
+      iso: 100
+      model: ILCE-6100
+      shutterSpeed: 4
       lensModel: E PZ 16-50mm F3.5-5.6 OSS
