@@ -3,7 +3,9 @@ import siteConfig from '../../site.config.mjs';
 
 const owner = siteConfig.owner;
 const base = import.meta.env.BASE_URL;
-const heroImage = siteConfig.heroImage ? `${base}/images/${siteConfig.heroImage}` : `${base}/images/${siteConfig.profileImage}`;
+const heroImage = siteConfig.heroImage
+	? `${base}/images/${siteConfig.heroImage}`
+	: `${base}/images/${siteConfig.profileImage}`;
 ---
 
 <div class="absolute inset-0 z-0">
@@ -12,19 +14,24 @@ const heroImage = siteConfig.heroImage ? `${base}/images/${siteConfig.heroImage}
 		class="absolute inset-0 bg-center bg-cover"
 		style={`background-image: url('${heroImage}'); filter: contrast(1.03) saturate(1.03);`}
 		aria-hidden="true"
-	></div>
+	>
+	</div>
 
 	<!-- Slightly lighter gradient overlay to keep text readable while improving clarity -->
 	<div
 		class="absolute inset-0"
 		style={`background: radial-gradient(ellipse at center, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0.18) 35%, rgba(0,0,0,0.55) 100%);`}
 		aria-hidden="true"
-	></div>
+	>
+	</div>
 
 	<!-- Content (raised slightly toward top) -->
 	<div class="relative z-10 flex items-start justify-center min-h-[60vh] pt-16">
 		<div class="text-center mb-10">
-			<h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight" style={`text-shadow: 0 10px 30px rgba(0,0,0,0.7);`}>
+			<h1
+				class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight"
+				style={`text-shadow: 0 10px 30px rgba(0,0,0,0.7);`}
+			>
 				{owner} Photography
 			</h1>
 			<p class="mt-4 text-base md:text-lg" style={`text-shadow: 0 6px 18px rgba(0,0,0,0.6);`}>
